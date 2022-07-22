@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="header">
+        <div id="logo">
+            <img src="https://picsum.photos/100/50" alt="header image" id="header-img">
+        </div>
+        <div id="menu">
+            <nav id="nav-bar">
+                <a href="#hero-section" class="nav-link">Home</a>
+                <a href="#about-section" class="nav-link">About</a>
+                <a href="#contact-section" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero section -->
+    <section id="hero-section">
+        <h1 id="heading">Get free images for your project.</h1>
+        <img id="hero-image" src="https://picsum.photos/800/400" alt="">
+        <code id="hero-image-link">https://picsum.photos/width/height</code>
+        <small id="hero-guideline">Add width & height and copy-paste above link</small>
+    </section>
+
+    <!-- About section -->
+    <section id="about-section">
+         <div id="about">
+            <div id="description">
+                <h1 class="about-title">Lorem Picsum</h1>
+                <ul class="about-list">
+                    <li>Lorem Picsum provides random or specific uploaded images as placeholders.</li>
+                    <li>Developers need to specify a desired image size (width & height) at the end of the request URL. <br> For example - <code>https://picsum.photos/800/400</code> </li>
+                    <li>Grayscale and blur effects can be applied to any image. <br> (using ?grayscale, ?blur at the end of url)</li>
+                </ul>
+            </div>
+            <div id="about-demo">
+                <iframe id="video" src="https://www.youtube.com/embed/bH6lM5J72DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+         </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact-section">
+        <div id="contact-form">
+            <h1>For more such information, kindly subscribe to our newsletter</h1>
+            <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+                <input type="email" name="email" id="email" placeholder="Enter your mail id" required>
+                <button type="submit" id="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <small>Made with &hearts; by ykumat@gmail.com</small>
+    </footer>
+</body>
+</html>
